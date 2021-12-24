@@ -1,0 +1,25 @@
+.container .item {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.container .item:nth-child(1):hover {
+    width: 200px;
+    background-color: wheat;
+}
+
+.container .item:nth-child(2) {
+    transform: rotate(75deg) scale(0.5);
+}
+/* deg = degree */
+/* roateX : 2차원의 변환효과 */
+
+.container .item:nth-child(3) {
+    transform: perspective(300px) rotateX(45deg);
+}
+/* roateX : 3차원의 변환효과 X축으로 회전한 것.*/
