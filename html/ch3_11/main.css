@@ -1,0 +1,29 @@
+.container {
+    width: 400px;
+    height: 250px;
+    margin: 50px;
+    padding: 20px;
+    background-color: orange;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container .item {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.container .item:nth-child(1) {
+    position: absolute;
+    /* 부모 요소를 기준으로 배치 
+    부모요소에 position 속성이 있어야한다.*/
+    left : 40px;
+    bottom : 100px;
+}
+
+.container .item:nth-child(2) {
+    position: absolute;
+    right : 40px;
+    top: 20px;
+}
