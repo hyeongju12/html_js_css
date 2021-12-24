@@ -1,0 +1,18 @@
+.container {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+/* flex를 통해서 수평 정렬을 할때 justify-content: flex-end를 사용하여 오른쪽으로 정렬*/
+
+.container .item {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    border:2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 문자정렬을 이용하여 수직정렬은 어렵다. */
